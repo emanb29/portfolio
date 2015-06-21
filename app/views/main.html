@@ -1,23 +1,38 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
+  <h2>My name is Ethan Bell</h2>
+  <h3>I make webstuff</h3>
   <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
+    <img src="images/weemee.png" alt="Ethan Bell"><br>
+    <!-- Always a pleasure scaffolding your apps. -->
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/contact">Let's work together!</a></p>
 </div>
 
 <div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
+  <h4>A Step Ahead</h4>
   <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+    I make it my business to always utilize the most powerful tools available to the web. This means that you as a client get not only a high "bang for your buck", but also that your application is simple, intuitive, and elegant. Some of my favorite technologies include Node.JS, AngularJS, Express, Mongoose, and Laravel.
   </p>
-
-  <h4>Angular</h4>
+  <h4>At a glance</h4>
   <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
+    Looking for a javascript genius? I can handle that! Need a node ninja? Look no further! Are you in the market for a PHP prince? Let me take a look!
   </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+  <p>
+    For your convenience, below is a quick summary of some of my strongest skills. This list is by no means comprehensive. If you are looking for something that you don't see below, please <a href="#/contact">reach out to me</a> and we can discuss!
+  </p>
+  <p>
+    <div ng-repeat="skill in skills" class="row">
+      <div class="col-md-2">{{skill.name}}</div>
+      <div class="col-md-10">
+        <div class="progress">
+          <div class="progress-bar progress-bar-material-{{skill.color}}" style="width: {{skill.percent}}%"></div>
+        </div></div>
+    </div>
+  </p>
+  <h4>Let's get real</h4>
+  <p>
+    Sure, a pretty chart showing high proficiencies is great, but why take my word for it? Check out my <a href="#/demos">code samples</a>, take a look at <a target="_blank" href="https://github.com/emanb29/portfolio">the code for this website</a>, or take a peek at any of the other projects on my <a target="_blank" href="https://github.com/emanb29">GitHub</a>
+  </p>
+  <h4>The old-school approach</h4>
+  <p>Looking for my <a target="_blank" href="uploads/ResumePro.pdf">resume?</a></p>
 </div>
