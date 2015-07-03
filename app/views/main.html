@@ -5,7 +5,9 @@
     <img src="images/weemee.png" alt="Ethan Bell"><br>
     <!-- Always a pleasure scaffolding your apps. -->
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/contact">Let's work together!</a></p>
+  <p>
+  <a class="btn btn-lg btn-material-green" ng-href="#/contact">Let's work together!</a>
+  </p>
 </div>
 
 <div class="row marketing">
@@ -25,7 +27,7 @@
       <div class="col-md-2">{{skill.name}}</div>
       <div class="col-md-10">
         <div class="progress">
-          <div class="progress-bar progress-bar-material-{{skill.color}}" style="width: {{skill.percent}}%"></div>
+          <div class="progress-bar progress-bar-material-{{skill.color}} progress-bar-striped active" style="width: {{skill.percent}}%"></div>
         </div></div>
     </div>
   </p>

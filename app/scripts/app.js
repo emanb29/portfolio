@@ -21,10 +21,10 @@ angular
   ])
   .run(function($rootScope){
     $rootScope.$on('$locationChangeSuccess', function(event, newURL, oldURL) {
-      //console.log(newURL, oldURL);
+      console.log(newURL, oldURL);
       $('.nav.navbar-nav li').removeClass('active');
       $('.nav.navbar-nav li a').each(function(i, $elem) {
-        if ($elem.href == newURL) {
+        if ($elem.href === newURL) {
           var $this = $(this);
           $this.parent().addClass('active');
           document.title = 'Ethan Bell - '+$this.text();
