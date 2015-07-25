@@ -12,77 +12,77 @@ angular.module('portfolioApp')
     $scope.skills = [
       {
         name: 'JavaScript',
-        percent: 95,
+        percent: 85,
         color: 'light-blue'
       },
       {
         name: 'jQuery',
-        percent: 85,
+        percent: 75,
         color: 'cyan'
       },
       {
         name: 'node.js',
-        percent: 70,
+        percent: 60,
         color: 'teal'
       },
       {
         name: 'AngularJS',
-        percent: 80,
+        percent: 70,
         color: 'green'
       },
       {
         name: 'ExpressJS',
-        percent: 75,
+        percent: 65,
         color: 'light-green'
       },
       {
         name: 'ECMAScript 6',
-        percent: 90,
+        percent: 80,
         color: 'lime'
       },
       {
         name: 'Chrome',
-        percent: 95,
+        percent: 85,
         color: 'yellow'
       },
       {
         name: 'MongoDB',
-        percent: 80,
+        percent: 70,
         color: 'amber'
       },
       {
         name: 'SQL/MySQL',
-        percent: 86,
+        percent: 76,
         color: 'orange'
       },
       {
         name: 'PHP',
-        percent: 85,
+        percent: 75,
         color: 'deep-orange'
       },
       {
         name: 'Laravel',
-        percent: 80,
+        percent: 70,
         color: 'red'
       },
       {
         name: 'MVC/MVVM',
-        percent: 90,
+        percent: 60,
         color: 'pink'
       },
       {
         name: 'OOP',
-        percent: 95,
+        percent: 85,
         color: 'purple'
       },
       {
         name: 'Git',
-        percent: 85,
+        percent: 75,
         color: 'deep-purple'
       },
       {
         name: 'Cordova/XDK',
-        percent: 90,
+        percent: 80,
         color: 'indigo'
       }
     ];

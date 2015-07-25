@@ -1,7 +1,5 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
+
 
 .browsehappy {
   margin: 0.2em 0;
@@ -64,6 +62,17 @@ body {
   p + h4 {
     margin-top: 28px;
   }
+}
+
+/*undoing some changes done by bootstrap-material to the progress bars*/
+.progress{
+  height: 20px;
+  border-radius: 4px;
+}
+
+/*TODO: maybe make a PR for this change to button groups in bootstrap-material*/
+.btn-group{
+  box-shadow: none;
 }
 
 /* Responsive: Portrait tablets and up */
