@@ -8,10 +8,17 @@
  * Controller of the portfolioApp
  */
 angular.module('portfolioApp')
-  .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('AboutCtrl', function ($scope, $timeout) {
+    $scope.clients = {
+      intel: {
+        url: '//intel.com/',
+        img: 'images/intel.png'
+      },
+      languageTwin: {
+        url: '//languagetwin.com/',
+        img: 'images/languagetwin.png'
+      }
+    };
+
+
   });

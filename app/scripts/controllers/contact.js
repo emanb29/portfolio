@@ -10,13 +10,17 @@
 angular.module('portfolioApp')
   .controller('ContactCtrl', function ($scope) {
     $scope.socialLinks = {
+      github: {
+        icon: 'fa-github',
+        url: '//github.com/emanb29'
+      },
       facebook: {
         icon: 'fa-facebook-square',
-        url: 'https://www.facebook.com/emanb29'
+        url: '//www.facebook.com/emanb29'
       },
       twitter: {
         icon: 'fa-twitter',
-        url: 'http://twitter.com/emanb29'
+        url: '//twitter.com/emanb29'
       }
-    }
+    };
   });
