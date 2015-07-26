@@ -1,13 +1,11 @@
 <p>This is the contact view.</p>
-<div class="panel panel-default">
+<div class="panel panel-default socialPanel">
   <div class="panel-heading">
     <h3 class="panel-title">Social Links</h3>
   </div>
   <div class="panel-body">
     <div class="btn-group" role="group">
-      <button class="btn btn-default btn-flat">Left</button>
-      <button class="btn btn-default btn-flat">Middle</button>
-      <button class="btn btn-default btn-flat">Right</button>
+      <a class="socialLink btn btn-default btn-flat" ng-repeat="link in socialLinks" ng-href="{{link.url}}" target="_blank"><i class="fa fa-2" ng-class="link.icon"></i></a>
     </div>
   </div>
 </div>

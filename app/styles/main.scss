@@ -1,11 +1,14 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+.wrapper{
+max-width: 960px;
 }
 
 body {
@@ -73,6 +76,21 @@ body {
 /*TODO: maybe make a PR for this change to button groups in bootstrap-material*/
 .btn-group{
   box-shadow: none;
+}
+
+.socialPanel {
+  .panel-body{
+    padding: 0;
+    .btn-group{
+      margin: 0;
+      margin-left: 15px;
+    }
+  }
+}
+
+a.socialLink{
+  font-size: 36px;
+  padding: 5px;
 }
 
 /* Responsive: Portrait tablets and up */
