@@ -24,7 +24,7 @@ angular.module('portfolioApp')
           if (bigHeight === bigHeightOld) return false; //cut it short if unnecessary. Saves some CPU and rendering cycles
           $thumbnails.each(function (i, elem) {
             var height = $(elem).height();
-            if (height < bigHeight) {
+            if (height < bigHeight+8) {
               var desiredPadding = (bigHeight - height) / 2 + 4; //+4 accommodates for thumbnail style
               $(elem).css({
                 'padding-top': desiredPadding,
