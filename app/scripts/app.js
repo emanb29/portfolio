@@ -40,7 +40,7 @@ angular
         controller: 'MainCtrl'
       })
       .when('/demos', {
-        templateUrl: '../views/demos.html',
+        templateUrl: 'views/demos.html',
         controller: 'AboutCtrl'
       })
       .when('/contact', {
