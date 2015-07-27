@@ -32,7 +32,8 @@ angular
       });
     });
   })
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $compileProvider) {
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|chrome-extension|skype|data):/); //allow usage of ftp, mailto, chrome-extension, etc, if I ever need them.
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
