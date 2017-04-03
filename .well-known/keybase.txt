@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/emanb29
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ethanbell.me
+  * I am emanb29 (https://keybase.io/emanb29) on keybase.
+  * I have a public key with fingerprint 8A57 BA49 8A10 0779 1447  F312 1892 4272 0E4D 20DE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101f4c4b60d9537dfdcb8b69a5c076e58681830c13aff74f52907d510ad1d7776cb0a",
+            "fingerprint": "8a57ba498a1007791447f312189242720e4d20de",
+            "host": "keybase.io",
+            "key_id": "189242720e4d20de",
+            "kid": "01014fd54b5aad1fed941c2df955689dec752d00af50f58e1dc69b719cddef65ccbb0a",
+            "uid": "be34fd54e78cbc675926d44e09609219",
+            "username": "emanb29"
+        },
+        "revoke": {
+            "sig_ids": [
+                "32122d0eea475bb73562c556220a6d4b832179a7911c8cb1b218e458d87555390f"
+            ]
+        },
+        "service": {
+            "hostname": "ethanbell.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1491242093,
+    "expire_in": 157680000,
+    "prev": "b32ec13286d951096f318d81ed59c91c88ee17e141ac2465e71ae9c68bbb3c78",
+    "seqno": 27,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.68
+Comment: https://keybase.io/crypto
+
+yMOtAnicbZJtUBVVHMa5JjoZpjM6mQkaq5nABffs3bNnD6NTKoJvk+OAQgN03bN7
+FvZyX+DuBURlVGLgQzRa4ltGgWXkyziKRECjJsGEYzqK0BhNWUQWSpQwhJBAZymn
+L+2XnT37nOf5nef8m6c/ETTN1nXtnf7SW60u29XLA7lBKV1lnh0c8WkFXOwOLotO
+vKhbo2bAmWVoXCzHAx7ooioSidcwdCBN11QiEwkrUOWRRKEsyUB28CpwKLqORB0K
+mEcaBLyiAQ0hJKmEVzg7pxveDOrP9hveALOVFYiIImJZATyPEAaiiHQHEICMBVFA
+Ak9FTeA1yjZm+kxrB4MjikljDB9bYx/OCbz/0f/HLeoaFAlUGIlONSwCVdB0DKEk
+Y42qCAoazys65HUoU6CpEiYIYFXTqC5BVSX/cOdO2BHqmHCjSFaJKiGIBUkTRcpj
+iccCwJbQpH6v4qFMTT2KlwiYK7Rzfprny6JWraaRwZhNLjaVcwhAYOGUKiKChCAH
+lASVcQkCrzBbIjMBwgqrBagsDxDWCxWhrMkIQujAvM6lM28WmGeoE+ZWSY/DA5ks
+nbrdMR6rjmy/L+BTfW72JzMQyDZjLapAQbYlzafE+a+JkxhejV0R25FH/abh83Kx
+gCnVgGG5AhEDVjSPHXaObss2/NRpWAqIJJlnj5VD86yiHAJlsyDIEhsXwOpht8q4
+AdUgVjE7jkwpQBSIQFEFUYIUAYViVZIJIQ4VyZx1rByvj4sVEONUMpgna86rBHL9
+lCtsupw2Ocg2LWhK8CRrdoOmPTnz8URnTp0x9sI+b+G6K2GD9z64cLP+Tm71e6++
+Fd2R8OyPtZu7Kxdfffme8UqYJyHuaFVxYG3fEVtVfufIDweX/LV6pafuWH2Ja+OQ
+Pf/mLJSUTgdOvO4Mjk6sym+hs849VXm+f/e30wfH5z8T3bzl6edWjT+f81r3r8Gu
+yi3+8uPtMPHGufI9Pb6tZkHIzKJFOxek5JILcK7LdK8/UtsaVAIbDo8lx5ysHXP3
+ocid4Z8njm5Kn/2SLbQquOf9h28f3NB690pkRf3GZbbSio+RN96f1dwc+qCkKc7o
+XTHrQVXvn415jQ+ightPH2sr8mxbdXT4ePv8U2s+unGruI2khYcXLxbOj5NHQwXV
+zrUoKqwp9fSa/TFhWMy396Ttq8n5OnXyF11j7vt/jMStXqjMzihBnjltP19qWFdw
+st0Xlwx9c064PrNd4crEzNC75beLdv22KOfiyTeWkJH7X06NPxs3/OG8A+9KqS0d
+e11pp3bpZtqWzeXfeAaWb12xeekvI9EzrrUdvl6zNqV7bkdRUn7dfsfv30VH9HUO
+28/UgprmrtKKi32D1xdtmvJIi2joP7Ssw1yASmO+3/hwdP3S5fERP828ndSdUpia
+EJl1JsKzJ2nbwL51C5qGNoDtn05y2joj7Z/UR18dTcttuWQuTK6r+WplVJHrTTzS
+oILxbGF3752czkOnakPOhuytfbHsQHWfsn3e31jf4VI=
+=RJcK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/emanb29
+
+==================================================================
+
